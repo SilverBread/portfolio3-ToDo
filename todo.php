@@ -4,7 +4,6 @@
     <title>My Todo Lists</title>
     <link href="css/todo.css" rel="stylesheet">
   </head>
-
   <body>
     <main>
       <div class="List">
@@ -13,8 +12,7 @@
           <div class="List-Task">
             <div class="List-Task-task">Task</div>
             <input type="text" name="task" class="form-control">
-            <input type="submit" class="Add-Btn" value="追加">
-            
+            <input type="submit" class="Add-Btn" value="追加">   
           </div>
         </form>
         <table class="task-table">
@@ -26,7 +24,6 @@
               <th></th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
               <!-- チェックボックス -->
@@ -51,7 +48,6 @@
               </td>
             </tr>
           </tbody>
-
       </div>
     </main>
   </body>
