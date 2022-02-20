@@ -2,7 +2,7 @@
 <html lang="ja" >
   <head>
     <title>My Todo Lists</title>
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/todo.css" rel="stylesheet">
   </head>
   <body>
     <main>
