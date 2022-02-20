@@ -1,3 +1,23 @@
+<?php
+  // DBに接続
+  $dsn = '';
+  $user = '';
+  $password = '';
+  
+  // 例外処理
+  try {
+    // PDOインスタンスの生成
+    $db = new PDO($dsn, $user, $password);
+    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+    // プリペアドステートメントを作成
+    $stmt = $db->prepare("SELECT * FROM  ORDER BY tasked DESC");
+    // クエリの実行
+    $stmt->execute();
+  } catch (PDOException $e){
+    exit("エラー：" . $e->getMessage());
+  }
+?>
+
 <!doctype html>
 <html lang="ja" >
   <head>
