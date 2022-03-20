@@ -6,7 +6,7 @@ HTML , CSS  , PHP を使用して、タスク管理アプリを作成しまし�
 ・タスク一覧表示機能<br>
 ・タスク削除機能<br>
 
-![uploads](./uploads/readme_todo.png)
+![uploads](./uploads/readme-todo.png)
 
 ## usage
 【タスク登録機能】<br>
